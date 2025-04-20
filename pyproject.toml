@@ -1,0 +1,12 @@
+[project]
+name = "Waifumi"
+version = "0.1.0"
+description = "Anilist Based Discord Bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.17",
+    "py-cord>=2.6.1",
+    "python-dotenv>=1.1.0",
+    "sqlite3-api>=2.0.4",
+]
