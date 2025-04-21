@@ -7,7 +7,9 @@ from discord.ext import commands
 
 load_dotenv()
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_TOKEN = (
+    "MTM2MzQzNDA0OTA4Mjc1MzEzNQ.GJ2WpE.hADrdzZDupALnkyqJd5ZXISrdCWoZjoDQMCLaU"
+)
 
 
 intents = discord.Intents.all()
